@@ -1,0 +1,8 @@
+.env
+.terraform
+.terraform/*
+*.tfstate
+*.tfstate.backup
+*.plan
+*.swp
+*.DS_Store

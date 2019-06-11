@@ -1,0 +1,4 @@
+#!ipxe
+kernel ${base-url}/vmlinuz rancher.state.formatzero=true rancher.state.dev=LABEL=RANCHER_STATE rancher.cloud_init.datasources=[url:${cloud-config-url}]
+initrd ${base-url}/initrd
+boot
